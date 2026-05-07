@@ -3,244 +3,488 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>乐谱市场·完整商机地图</title>
+<title>凌凌老师声乐数字产品·最终商业计划参考</title>
 <style>
   * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#0d1117; color:#c9d1d9; line-height:1.65; max-width:920px; margin:0 auto; padding:36px 20px; }
-  h1 { color:#f0f6fc; font-size:24px; }
-  .subtitle { color:#8b949e; font-size:13px; margin-bottom:24px; }
-  h2 { color:#58a6ff; font-size:19px; margin:36px 0 10px; padding-bottom:4px; border-bottom:2px solid #21262d; }
-  h3 { color:#c9d1d9; font-size:15px; margin:18px 0 6px; }
-  .card { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:16px; margin:12px 0; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background:#0d1117; color:#c9d1d9; line-height:1.6; max-width:960px; margin:0 auto; padding:40px 20px; }
+  h1 { color:#f0f6fc; font-size:25px; }
+  .subtitle { color:#8b949e; font-size:13px; margin-bottom:28px; }
+  h2 { color:#58a6ff; font-size:19px; margin:40px 0 12px; padding-bottom:5px; border-bottom:2px solid #21262d; }
+  h3 { color:#c9d1d9; font-size:15px; margin:20px 0 8px; }
+  .card { background:#161b22; border:1px solid #30363d; border-radius:8px; padding:18px; margin:14px 0; }
   .card.g { border-left:4px solid #3fb950; }
   .card.y { border-left:4px solid #d2991d; }
   .card.r { border-left:4px solid #f85149; }
   .card.b { border-left:4px solid #58a6ff; }
   .card.p { border-left:4px solid #a371f7; }
-  table { width:100%; border-collapse:collapse; margin:8px 0; }
-  th { background:#21262d; padding:6px 8px; text-align:left; font-size:11px; color:#8b949e; }
-  td { padding:6px 8px; border-bottom:1px solid #21262d; font-size:13px; }
-  .source { font-size:11px; color:#484f58; margin-top:6px; padding-top:6px; border-top:1px solid #21262d; }
+  table { width:100%; border-collapse:collapse; margin:10px 0; font-size:13px; }
+  th { background:#21262d; padding:8px 10px; text-align:left; font-size:11px; color:#8b949e; }
+  td { padding:8px 10px; border-bottom:1px solid #21262d; }
+  .source { font-size:11px; color:#484f58; margin-top:8px; padding-top:8px; border-top:1px solid #21262d; }
   .tag { display:inline-block; padding:1px 7px; border-radius:3px; font-size:10px; font-weight:600; }
   .tgg { background:#1b3a2a; color:#3fb950; }
   .tgr { background:#3d1e1e; color:#f85149; }
   .tgy { background:#2d2a1a; color:#d2991d; }
   .tgb { background:#1a2332; color:#58a6ff; }
+  .tgp { background:#2a1a3d; color:#a371f7; }
+  .num { font-size:22px; font-weight:700; color:#f0f6fc; }
   .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
-  @media (max-width:640px) { .grid2 { grid-template-columns:1fr; } }
+  .grid3 { display:grid; grid-template-columns:1fr 1fr 1fr; gap:12px; }
+  .toc a { color:#58a6ff; text-decoration:none; }
+  .toc a:hover { text-decoration:underline; }
+  .insight { background:#1a2332; border-left:3px solid #58a6ff; padding:8px 12px; margin:10px 0; font-size:13px; }
+  .danger { background:#3d1e1e; border-left:3px solid #f85149; padding:8px 12px; margin:10px 0; font-size:13px; }
+  @media (max-width:640px) { .grid2,.grid3 { grid-template-columns:1fr; } }
 </style>
 </head>
 <body>
 
-<h1>🎯 乐谱市场 · 完整商机地图</h1>
-<p class="subtitle">六层价值链 × 实时数据 × 凌凌老师适配度评估</p>
+<h1>🎤 凌凌老师 · 声乐数字产品商业计划</h1>
+<p class="subtitle">
+  最终版 · 2026年5月7日 · 数据覆盖：闲鱼 / 抖音 / 小红书 三平台共计 18 组搜索 · 全部已登录实时数据
+</p>
 
-<!-- ====== Layer 1 ====== -->
-<h2>第一层：乐谱产品本身</h2>
+<!-- ====== TOC ====== -->
+<div class="card toc">
+  <p><a href="#s1">一、核心判断</a> · <a href="#s2">二、三平台完整数据</a> · <a href="#s3">三、少儿声乐专项</a> · <a href="#s4">四、AI冲击</a> · <a href="#s5">五、竞争格局</a> · <a href="#s6">六、六层商机地图</a> · <a href="#s7">七、产品线设计</a> · <a href="#s8">八、收入模型</a> · <a href="#s9">九、MVP行动清单</a> · <a href="#s10">十、版权路线图</a></p>
+</div>
 
-<table>
-  <tr><th style="width:18%">品类</th><th style="width:30%">现状</th><th>凌凌老师机会</th><th style="width:10%">判断</th></tr>
-  <tr>
-    <td>流行歌曲谱</td>
-    <td>闲鱼 ¥1 红海，抖音到处是</td>
-    <td>不能碰（版权+价格战）</td>
-    <td><span class="tag tgr">❌</span></td>
-  </tr>
-  <tr>
-    <td>古典/考级谱</td>
-    <td>有需求但缺好产品。@多才多艺小红帽 1665赞</td>
-    <td><strong>少儿声乐考级标注版谱</strong></td>
-    <td><span class="tag tgg">✅</span></td>
-  </tr>
-  <tr>
-    <td>钢琴谱</td>
-    <td>@夕夕 月入1.7万，有人验证过</td>
-    <td>不擅长（非凌凌老师方向）</td>
-    <td><span class="tag tgy">⚠️</span></td>
-  </tr>
-  <tr>
-    <td>吉他谱</td>
-    <td>闲鱼老江免翻页吉他谱、songsterr代下</td>
-    <td>不相关</td>
-    <td><span class="tag tgr">❌</span></td>
-  </tr>
-  <tr>
-    <td>动态谱</td>
-    <td>抖音指北者 40万+首，已是巨头</td>
-    <td>技术门槛高，不适合起步</td>
-    <td><span class="tag tgr">❌</span></td>
-  </tr>
-  <tr>
-    <td>原创练声曲</td>
-    <td>小红书 @一梦善存 2978赞「趣味练声」</td>
-    <td><strong>凌凌老师原创练声曲+伴奏</strong></td>
-    <td><span class="tag tgg">✅</span></td>
-  </tr>
-  <tr>
-    <td>声乐谱</td>
-    <td>无专门做「带教学标注声乐谱」的卖家</td>
-    <td><strong>差异化蓝海</strong></td>
-    <td><span class="tag tgg">✅</span></td>
-  </tr>
-</table>
+<!-- ====== 1 ====== -->
+<h2 id="s1">一、核心判断</h2>
 
-<div class="source">数据：闲鱼/小红书/抖音 2026.5.7</div>
+<div class="card" style="text-align:center;padding:24px;">
+  <p style="font-size:17px;color:#f0f6fc;">「把十几年声乐教学经验，封装成可复制的数字产品」</p>
+  <p style="font-size:14px;color:#58a6ff;margin-top:8px;">不是卖谱。不是卖课。是卖「凌凌老师的教学判断」。</p>
+</div>
 
-<!-- ====== Layer 2 ====== -->
-<h2>第二层：教育产品（谱 + 教学）</h2>
-
-<div class="grid2">
-  <div class="card g">
-    <h3>✅ 少儿声乐考级通关包</h3>
-    <p>考级曲目标注谱 + 范唱视频 + 扣分点清单</p>
-    <p style="color:#3fb950;">¥99-299/级 · 家长刚需 · 每年重复购买</p>
-    <p style="font-size:11px;color:#8b949e;">@多才多艺小红帽 1665赞验证需求</p>
+<div class="grid3">
+  <div class="card" style="text-align:center">
+    <div class="num">¥0-1000</div>
+    <p style="color:#8b949e;font-size:12px;">启动资金</p>
   </div>
-  <div class="card g">
-    <h3>✅ 声乐启蒙亲子课</h3>
-    <p>4-8岁亲子音乐启蒙视频课 + 互动游戏卡</p>
-    <p style="color:#3fb950;">¥129-199 · 家长愿意为「专业老师」溢价</p>
-    <p style="font-size:11px;color:#8b949e;">抖音 @郭飞FINN弹唱课 14.8万赞验证儿童教学流量</p>
+  <div class="card" style="text-align:center">
+    <div class="num">¥5000-15000</div>
+    <p style="color:#8b949e;font-size:12px;">月收入目标（3-6个月）</p>
   </div>
-  <div class="card y">
-    <h3>⚠️ 声乐老师B2B教案包</h3>
-    <p>48节完整教案/课堂游戏素材 → 卖给其他老师</p>
-    <p style="color:#d2991d;">¥199-399 · 市场小但利润高</p>
-  </div>
-  <div class="card r">
-    <h3>❌ 成人零基础唱歌课</h3>
-    <p>抖音 @杰森小课堂 76.1万赞，竞争激烈</p>
-    <p>闲鱼声乐大学生 ¥30/课 232人想要，已是红海</p>
+  <div class="card" style="text-align:center">
+    <div class="num" style="color:#3fb950;">0</div>
+    <p style="color:#8b949e;font-size:12px;">直接竞品（声乐教学标注谱）</p>
   </div>
 </div>
 
-<!-- ====== Layer 3 ====== -->
-<h2>第三层：服务型生意</h2>
+<!-- ====== 2 ====== -->
+<h2 id="s2">二、三平台完整市场数据</h2>
+
+<h3>2.1 闲鱼（goofish.com）— 价格锚点数据</h3>
+
+<div class="card">
+  <h4>搜索"乐谱" — TOP 10 热门商品</h4>
+  <table>
+    <tr><th>排名</th><th>商品</th><th>价格</th><th>想要</th><th>品类</th></tr>
+    <tr><td>1</td><td>100000首乐队总谱 跑场谱</td><td>¥1</td><td><span class="tgr" style="font-size:14px;">793人</span></td><td>谱集打包</td></tr>
+    <tr><td>2</td><td>乐谱制作/打谱定制（三年千单）</td><td>¥5</td><td>198人</td><td>定制服务</td></tr>
+    <tr><td>3</td><td>代找各类谱（流行/韩国/KPOP）</td><td>¥1</td><td>149人</td><td>代找服务</td></tr>
+    <tr><td>4</td><td>PDF转乐谱（OVE/Sib/MusicXML）</td><td>¥20</td><td>89人</td><td>格式转换</td></tr>
+    <tr><td>5</td><td>悦音muse2.7 简谱五线谱互转</td><td>¥1.88</td><td>69人</td><td>软件工具</td></tr>
+    <tr><td>6</td><td>SmartScore 乐谱识别软件</td><td>¥4</td><td>52人</td><td>软件工具</td></tr>
+    <tr><td>7</td><td>弹琴吧高级会员（24h）</td><td>¥8.80</td><td>39人</td><td>平台会员</td></tr>
+    <tr><td>8</td><td>MuseScore Studio 4.6.4</td><td>¥2.88</td><td>33人</td><td>制谱软件</td></tr>
+    <tr><td>9</td><td>久石让《千与千寻》钢琴谱PDF</td><td>¥1</td><td>16人</td><td>电子曲谱</td></tr>
+    <tr><td>10</td><td>周杰伦《不能说的秘密》琴谱</td><td>¥10</td><td>14人</td><td>电子曲谱</td></tr>
+  </table>
+  <div class="insight">💡 闲鱼乐谱市场核心逻辑：<strong>走量不走价</strong>。99%数字产品 ¥1-10，卖家靠自动发货省时间。电子曲谱品类需求低（14-16人想要），远不如谱集打包（793人）和定制服务（198人）。</div>
+  <div class="source">搜索词："乐谱" · 2026.5.7 · goofish.com 已登录</div>
+</div>
+
+<div class="card">
+  <h4>搜索"声乐老师" — 闲鱼上的声乐1v1市场</h4>
+  <table>
+    <tr><th>卖家</th><th>服务</th><th>价格</th><th>想要</th></tr>
+    <tr><td>声乐大学生</td><td>一对一唱歌教学</td><td>¥30/节</td><td><span class="tgg">232人</span></td></tr>
+    <tr><td>川音毕业老师</td><td>线上教学（成人/儿童）</td><td>¥50/节</td><td>—</td></tr>
+    <tr><td>中央音院硕士</td><td>声乐流行/艺考/乐理</td><td>¥120/次</td><td>—</td></tr>
+    <tr><td>深圳流行声乐工作室</td><td>0基础&进阶 线上线下</td><td>¥29.90/节</td><td>24人</td></tr>
+    <tr><td>西安吉他上门</td><td>吉他教学 先上课再付费</td><td>¥80/节</td><td>14人</td></tr>
+  </table>
+  <div class="insight">💡 闲鱼是一个 <strong>被低估的声乐生源渠道</strong>。232人想要说明有大量精准流量在闲鱼找声乐老师。凌凌老师可以挂 ¥9.9 体验课引流。</div>
+  <div class="source">搜索词："声乐老师" · 2026.5.7 · goofish.com 已登录</div>
+</div>
+
+<div class="card r">
+  <h4>搜索"少儿音乐启蒙" — 盗版资源泛滥（不推荐进入）</h4>
+  <table>
+    <tr><th>热门商品</th><th>价格</th><th>想要</th><th>特征</th></tr>
+    <tr><td>儿童剧本戏/音乐情景剧视频</td><td>¥1</td><td>285人</td><td>盗版视频</td></tr>
+    <tr><td>奥尔夫音乐早教全套资料</td><td>¥1</td><td>207人</td><td>盗版课程</td></tr>
+    <tr><td>音乐老师课后动画资源 54套</td><td>¥1</td><td>203人</td><td>盗版动画</td></tr>
+    <tr><td>东东音乐课全套视频</td><td>¥2.70</td><td>157人</td><td>盗版课程</td></tr>
+    <tr><td>儿童音乐启蒙全套教程</td><td>¥1</td><td>94人</td><td>盗版课程</td></tr>
+    <tr><td>陈老师100节音乐律动</td><td>¥1-1.48</td><td>700+已购</td><td>盗版课程</td></tr>
+  </table>
+  <div class="danger">⚠️ 同一套「54套动画」被至少6个卖家同时出售，全部定价 ¥1。这是盗版垃圾场，不是空白市场。凌凌老师不应加入，但 <strong>市场热度验证了家长对少儿音乐资源的需求</strong>。</div>
+  <div class="source">搜索词："少儿音乐启蒙""儿童音乐启蒙教材""幼儿音乐启蒙资料""音乐启蒙课程" · 2026.5.7</div>
+</div>
+
+<h3>2.2 抖音（douyin.com）— 流量与趋势数据</h3>
+
+<div class="card">
+  <h4>搜索"动态谱" — 抖音最大的乐谱品类</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>数据</th></tr>
+    <tr><td>指北者动态谱（多账号提及）</td><td>40万+首曲库，终身免费更新</td><td>行业龙头</td></tr>
+    <tr><td>苏州天天阅谱</td><td>「替代读谱机」光标动态谱</td><td>直播带货</td></tr>
+    <tr><td>@东方儒牛动态谱</td><td>「曲谱伴奏商家打死不说这些秘密」</td><td>—</td></tr>
+    <tr><td>@大音希声动态谱</td><td>《雨蝶》升C调唱谱</td><td>551赞</td></tr>
+    <tr><td>@大梁动态简谱</td><td>《上海滩》降E调伴奏动态谱</td><td>531赞</td></tr>
+    <tr><td>@乐谱小课堂</td><td>《世界赠予我的》简谱动态谱</td><td>3.0万赞</td></tr>
+  </table>
+  <div class="insight">💡 动态谱是抖音上的成熟品类（40万+首曲库），主要用户是 <strong>中老年乐器爱好者</strong>（电吹管/萨克斯/二胡）。和凌凌老师的声乐方向重叠度低。</div>
+  <div class="source">搜索词："动态谱" · 2026.5.7</div>
+</div>
+
+<div class="card">
+  <h4>搜索"曲谱带货" — 商业化验证</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>数据</th><th>变现</th></tr>
+    <tr><td>@金声玉韵课堂</td><td>"282首简谱+6天声乐课程 只要9.9"</td><td>—</td><td><span class="tgb">课+谱打包</span></td></tr>
+    <tr><td>@方文专营店</td><td>"中老年人唱歌好处多，这本书太适合"</td><td>1.2万赞</td><td>实体书橱窗</td></tr>
+    <tr><td>@星海康老师</td><td>"带货视频爆单八百多，橱窗1.2万→1.4万件"</td><td>爆单</td><td><span class="tgg">乐谱夹带货</span></td></tr>
+    <tr><td>@rnsks</td><td>"Q249光标动态谱，永久免费定制伴奏"</td><td>9617赞</td><td>动态谱软件</td></tr>
+    <tr><td>@吉他家轩</td><td>"曲谱分享 知识付费…需要私信"</td><td>275赞</td><td>私域转化</td></tr>
+  </table>
+  <div class="insight">💡 <strong>乐谱夹带货</strong> 橱窗销量1.2万→1.4万件，说明乐器/乐谱相关的实体周边也是可行方向。</div>
+  <div class="source">搜索词："曲谱带货" · 2026.5.7</div>
+</div>
+
+<div class="card">
+  <h4>搜索"声乐教学" — 顶级流量账号</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>赞</th></tr>
+    <tr><td>@大米老师教唱歌</td><td>「一咬一个不支声～」</td><td><span class="tgg" style="font-size:15px;">134.9万</span></td></tr>
+    <tr><td>@杰森小课堂</td><td>「从唱歌入门讲到高级技巧」</td><td>76.1万</td></tr>
+    <tr><td>@SOU-E唱歌教学</td><td>「这世界那么多人完整版教唱」</td><td>34.8万</td></tr>
+    <tr><td>@乙婷声乐老师</td><td>「零基础学会一首歌」</td><td>7.4万</td></tr>
+  </table>
+  <div class="insight">💡 声乐教学在抖音是 <strong>已验证的大流量赛道</strong>，单条视频可达百万赞。但这些账号主要是流量变现（打赏/广告），不卖谱。凌凌老师可以走「教学引流 + 产品变现」的差异化路线。</div>
+  <div class="source">搜索词："声乐教学" · 2026.5.7</div>
+</div>
+
+<div class="card">
+  <h4>搜索"简谱教唱卖课""简谱教学变现" — 变现模式</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>数据</th></tr>
+    <tr><td>@小笛哥哥</td><td>「简谱入门第一课」</td><td>1.2万赞</td></tr>
+    <tr><td>@小笛教学</td><td>「新手从0学习简谱」</td><td>11.4万赞</td></tr>
+    <tr><td>@大麦老师简谱课堂</td><td>「唱谱8大节奏练习」</td><td>2.0万赞</td></tr>
+    <tr><td>@Yapie程序员哥</td><td>「deepseek写歌卖了5万块，AI歌曲如何变现」</td><td>4.0万赞</td></tr>
+    <tr><td>@严肃的虾米</td><td>「26岁小伙靠卖二手琴年入百万」</td><td>3587赞</td></tr>
+    <tr><td>@爱玩AI的麦麦</td><td>「音乐搞米最快的方法：AI邪修版」</td><td>—</td></tr>
+  </table>
+  <div class="source">搜索词："简谱教唱卖课""简谱教学变现" · 2026.5.7</div>
+</div>
+
+<div class="card r">
+  <h4>⚠️ 法律警示</h4>
+  <p><strong>@上海高院</strong>（上海市高级人民法院官方账号）2025年5月22日发布：「<strong>直播间扒谱卖谱，竟遭索赔？</strong>」— 373赞。法院亲自下场普法，明确信号：<span style="color:#f85149;">未经授权的扒谱/卖谱存在法律风险</span>。</p>
+  <div class="source">搜索词："曲谱带货""简谱教学变现" · 2026.5.7</div>
+</div>
+
+<h3>2.3 小红书（xiaohongshu.com）— 变现数据</h3>
+
+<div class="card g">
+  <h4>搜索"乐谱售卖"+"卖乐谱赚钱" — 已验证收入</h4>
+  <table>
+    <tr><th>账号</th><th>收入/数据</th><th>时间</th></tr>
+    <tr><td>@夕夕</td><td>"卖钢琴资料1月挣1.7w"</td><td>2024.04</td></tr>
+    <tr><td>@追着喂饭</td><td>"每天3单利润600"（月约1.8万）</td><td>2024.04</td></tr>
+    <tr><td>@吉样西瓜</td><td>"一个月搞了9W🔥"</td><td>2024.04</td></tr>
+    <tr><td>@耶耶爱写字</td><td>"卖虚拟课程9天挣10000"</td><td>2024.09</td></tr>
+    <tr><td>@乐谱日记</td><td>"暑假没有学生，已成功转行"</td><td>2025.08</td></tr>
+    <tr><td>@施鹏</td><td>"著作权收益882.71元"</td><td>2025.07</td></tr>
+  </table>
+  <div class="source">搜索词："乐谱售卖""卖乐谱赚钱" · 2026.5.7</div>
+</div>
+
+<div class="card">
+  <h4>乐谱生态卖家一览</h4>
+  <table>
+    <tr><th>卖家</th><th>品类</th><th>时间</th><th>赞</th></tr>
+    <tr><td>@爱弹吉他的顾老师</td><td>"全套曲谱包电子版包更新39.9r"</td><td>04.28</td><td>—</td></tr>
+    <tr><td>@那浪蒙濛动态谱</td><td>"视频同款点左下角个人售卖下单"</td><td>04.26</td><td>3</td></tr>
+    <tr><td>@JT音乐工作室</td><td>"打谱制谱扒谱（全天接单）"</td><td>2024.05</td><td>235</td></tr>
+    <tr><td>@P崽制谱屋</td><td>"Sibelius制谱接单中"</td><td>2025.05</td><td>17</td></tr>
+    <tr><td>@芝士世界young</td><td>"出谱超快的高还原人工扒谱/编曲"</td><td>2025.11</td><td>27</td></tr>
+    <tr><td>@大熊音乐出版社</td><td>"第30个世界书籍和版权日"</td><td>2025.04</td><td>240</td></tr>
+  </table>
+</div>
+
+<div class="card r">
+  <h4>版权意识帖子</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>赞</th></tr>
+    <tr><td>@法艺汐渺</td><td>"音乐博主变现第一步：先别违法！"</td><td>26</td></tr>
+    <tr><td>@打鲁</td><td>"被扒谱哥膈应【扒谱≠版权所有人 望周知】"</td><td>159</td></tr>
+    <tr><td>@音乐版权一手资讯</td><td>"花500块买音乐版权，就能月月收租？"</td><td>4</td></tr>
+  </table>
+</div>
 
 <div class="card b">
-  <h3>发现：闲鱼上「1v1声乐课」是一个被低估的获客渠道</h3>
+  <h4>搜索"声乐教学变现""声乐老师副业""音乐老师副业" — 行业共识</h4>
   <table>
-    <tr><th>卖家类型</th><th>定价</th><th>想要</th><th>启示</th></tr>
-    <tr><td>声乐大学生一对一</td><td>¥30/节</td><td>232人</td><td>闲鱼有大量精准流量在找声乐老师</td></tr>
-    <tr><td>川音毕业老师</td><td>¥50/节</td><td>—</td><td>科班出身可以定更高</td></tr>
-    <tr><td>中央音院硕士</td><td>¥120/次</td><td>—</td><td>学历/经验 = 定价权</td></tr>
+    <tr><th>内容</th><th>账号</th><th>赞</th></tr>
+    <tr><td>"声乐老师做自媒体，一定要学会卖自己"</td><td>@阿乐不想上班</td><td>11</td></tr>
+    <tr><td>"声乐工作室，即将崛起一批富人"</td><td>@Cherry芙</td><td>47</td></tr>
+    <tr><td>"听劝，有野心的声乐老师，都去做博主"</td><td>@Cherry芙</td><td>17</td></tr>
+    <tr><td>"少儿声乐一年挣几百W？"</td><td>@DK大可老师</td><td>88</td></tr>
+    <tr><td>"2024年新风口❗小红书＋声乐"</td><td>@琪琪聊运营</td><td>140</td></tr>
+    <tr><td>"音乐老师做线上一个月能赚多少钱？"</td><td>@施键金king</td><td>6</td></tr>
+    <tr><td>"音乐生如何通过技能变现💰"</td><td>@陈小满sylvia</td><td>299</td></tr>
+    <tr><td>"音乐老师做双赛道真的容易火"</td><td>@是小柱呀</td><td>156</td></tr>
   </table>
-  <p>凌凌老师可以：在闲鱼挂 <strong>¥9.9 声乐体验课</strong> → 引流到微信 → 卖课程包/长期课。这不卖谱，但用谱作为教学工具。</p>
+  <div class="insight">💡 小红书上的共识：<strong>声乐老师 + 自媒体 = 当下最好的变现组合</strong>。多个账号在推这个方向，但目前「讲方法的人」多，「真正下场做出产品的」少。</div>
+  <div class="source">搜索词："声乐教学变现""声乐老师副业""音乐老师副业" · 2026.5.7</div>
+</div>
+
+<!-- ====== 3 ====== -->
+<h2 id="s3">三、少儿声乐专项数据</h2>
+
+<div class="card g">
+  <h4>搜索"少儿声乐教学"（小红书）</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>赞</th></tr>
+    <tr><td>@一梦善存</td><td>"低年级学生超爱的趣味练声方法"</td><td><span class="tgg" style="font-size:15px;">2978</span></td></tr>
+    <tr><td>@熠晴声乐课堂</td><td>"少儿声乐｜适合8-12岁长气息练声曲"</td><td>1451</td></tr>
+    <tr><td>@郭飞FINN弹唱课</td><td>"Let It Go！就算暴风雨来了也不怕"</td><td>441</td></tr>
+    <tr><td>@教唱歌的小雨老师</td><td>"《立春》回课"</td><td>272</td></tr>
+    <tr><td>@声凌其境</td><td>"4-12岁儿童歌曲曲单"</td><td>127</td></tr>
+  </table>
+  <div class="insight">💡 少儿声乐教学内容需求旺盛（最高2978赞），但<strong>目前没有人在卖「带教学标注的少儿声乐练习曲」</strong>。</div>
 </div>
 
 <div class="card y">
-  <h3>定制扒谱/打谱 → 不推荐</h3>
-  <p>AI扒谱正在颠覆这个市场。小红书「AI扒谱」搜索：@momo「DeepSeek能扒谱子了」4996赞，@Monica_ss🎹 9347赞。人工扒谱的生存空间在缩小。</p>
+  <h4>搜索"少儿声乐考级资料"（小红书）— 🔑 最关键数据</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>赞</th></tr>
+    <tr><td>@多才多艺小红帽</td><td>"【整理版】少儿声乐考级曲目 一级范唱已发"</td><td><span class="tgy" style="font-size:15px;">1665</span></td></tr>
+    <tr><td>@酷比夏</td><td>"央音少儿声乐考级换教材了"（热点新闻！）</td><td>—</td></tr>
+    <tr><td>@刘老师线上声乐课</td><td>"中国音乐学院声乐考级 1-6级曲目"</td><td>—</td></tr>
+    <tr><td>@Fay's Music Workshop</td><td>"制谱｜少儿流行声乐考级作品集"</td><td>—</td></tr>
+    <tr><td>@Q麻麻</td><td>"中国音乐学院少儿声乐考级录制模版范例"</td><td>150</td></tr>
+    <tr><td>@朵朵</td><td>"央音少儿声乐九级，录制第一遍"</td><td>327</td></tr>
+    <tr><td>@英皇考级教育-Rita</td><td>"2026年英皇声乐考级全攻略"</td><td>—</td></tr>
+    <tr><td>@搽音的乐谱铺</td><td>"《银铃姑娘》简谱！"</td><td>10小时前</td></tr>
+  </table>
+  <div class="insight">💡 <strong>这是最核心的机会信号</strong>：考级资料需求大（1665赞）、央音刚换教材（新需求缺口）、有人在卖但产品很初级（只有简谱，没有教学标注）。凌凌老师可以用「标注版考级谱+范唱视频」直接切入。</div>
 </div>
 
-<!-- ====== Layer 4 ====== -->
-<h2>第四层：平台/流量型生意</h2>
-
-<div class="grid2">
-  <div class="card b">
-    <h3>「声乐老师自媒体」→ 已验证赛道</h3>
-    <p>小红书 @阿乐不想上班、@Cherry芙、@是小柱呀 都在推这个方向</p>
-    <p>路径：发教学视频 → 积累粉丝 → 卖课/卖谱/接广告</p>
-    <p>但注意：这是<a style="color:#58a6ff;">流量生意</a>，和「卖产品」是不同逻辑</p>
-  </div>
-  <div class="card g">
-    <h3>「声乐教学产品」→ 凌凌老师的主战场</h3>
-    <p>路径：先做好产品（考级包/练声曲）→ 再用自媒体引流</p>
-    <p>区别：先有产品再引流，而不是等有了流量再想产品</p>
-    <p>小红书「个人售卖」功能让这件事变得简单</p>
-  </div>
+<div class="card">
+  <h4>搜索"少儿声乐教学"（抖音）</h4>
+  <table>
+    <tr><th>账号</th><th>内容</th><th>赞</th></tr>
+    <tr><td>@郭飞FINN弹唱课</td><td>"小女孩敢唱大世界！"</td><td>14.8万</td></tr>
+    <tr><td>@大可老师</td><td>"《我会等》父女教学"</td><td>4.8万</td></tr>
+    <tr><td>@教孩子唱歌的梦梦</td><td>"3分钟轻松搞定一首歌"</td><td>3936</td></tr>
+    <tr><td>@Anan老师教唱歌</td><td>"头腔共鸣训练，模仿猫咪叫声找发声位置"</td><td>758</td></tr>
+  </table>
+  <div class="source">搜索词："少儿声乐教学""儿童唱歌教学" · 2026.5.7</div>
 </div>
 
-<!-- ====== Layer 5 ====== -->
-<h2>第五层：AI 带来的变局与机会</h2>
+<!-- ====== 4 ====== -->
+<h2 id="s4">四、AI 冲击数据</h2>
 
 <div class="card p">
-  <h3>AI 正在吃掉「标准化」乐谱的利润</h3>
-  <ul>
-    <li>AI扒谱：DeepSeek/Songscription 可以秒出谱，人工扒谱价值归零</li>
-    <li>AI写歌：@Yapie程序员哥「deepseek写歌卖了5万块」4万赞</li>
-    <li>AI制谱：悦音muse、MuseScore 都在加AI功能</li>
-  </ul>
-  <p style="color:#a371f7;margin-top:8px;"><strong>但AI吃不到的是：</strong>凌凌老师十几年的教学经验判断——「这个换气点为什么放在这里」「这个共鸣提示对这个年龄段的孩子特别重要」——这是AI永远替代不了的。</p>
-</div>
-
-<!-- ====== Layer 6 ====== -->
-<h2>第六层：跨界组合</h2>
-
-<div class="grid2">
-  <div class="card g">
-    <h3>✅ 少儿声乐教材+教具包</h3>
-    <p>谱子 + 练习卡 + 贴纸 + 进度表 = 实体产品包</p>
-    <p>抖音 @星海康老师 乐谱夹带货 橱窗1.4万件</p>
-    <p>不是卖谱，是卖「少儿声乐学习套装」</p>
-  </div>
-  <div class="card y">
-    <h3>⚠️ 声乐教学SaaS/小程序</h3>
-    <p>技术门槛高但想象空间大</p>
-    <p>小红书「声乐老师副业」有人搜「声乐变现app」</p>
-    <p>短期不适合，长期可关注</p>
-  </div>
-</div>
-
-<!-- ====== 优先级 ====== -->
-<h2>七、凌凌老师行动优先级</h2>
-
-<div class="card g">
+  <h4>搜索"AI扒谱"（小红书）— AI正在颠覆传统扒谱</h4>
   <table>
-    <tr><th style="width:5%">序</th><th style="width:25%">做什么</th><th style="width:12%">定价</th><th style="width:10%">上线时间</th><th>为什么这个先做</th></tr>
+    <tr><th>内容</th><th>账号</th><th>赞</th></tr>
+    <tr><td>"音乐生进！！扒谱再也不求人！"</td><td>@Monica_ss🎹</td><td><span class="tgp" style="font-size:15px;">9347</span></td></tr>
+    <tr><td>"天呐，DeepSeek能扒谱子了"</td><td>@momo</td><td>4996</td></tr>
+    <tr><td>"Songscription扒谱AI工具测评"</td><td>@Songscription</td><td>1999</td></tr>
+    <tr><td>"怎么扒谱？好用app分享第2弹"</td><td>@盒子YiHer</td><td>1768</td></tr>
+    <tr><td>"苦练10年的技能被AI替代掉是什么感觉"</td><td>@夏雨AI钢琴</td><td>—</td></tr>
+    <tr><td>"为什么AI生成音乐扒带是在浪费时间？"</td><td>@大王不爱编曲</td><td>—</td></tr>
+  </table>
+  <div class="insight">💡 AI扒谱 9347赞 = 巨大的关注度。意味着：<strong>标准化扒谱/打谱的生意很快会被AI吃掉</strong>。但凌凌老师的「教学标注」—— 哪里换气、用什么共鸣、这句的咬字怎么处理 —— AI永远判断不了。</div>
+  <div class="source">搜索词："AI扒谱" · 2026.5.7</div>
+</div>
+
+<!-- ====== 5 ====== -->
+<h2 id="s5">五、竞争格局总结</h2>
+
+<div class="card">
+  <table>
+    <tr><th>赛道</th><th>竞争强度</th><th>头部玩家</th><th>凌凌老师机会</th></tr>
     <tr>
-      <td>1</td>
-      <td><strong>少儿声乐考级通关包</strong></td>
-      <td>¥99/级</td>
-      <td>2周</td>
-      <td>刚需、家长付费意愿高、版权安全、可复用</td>
+      <td>成人乐谱（流行/钢琴）</td>
+      <td><span class="tgr">红海</span> 闲鱼793人想要 ¥1</td>
+      <td>闲鱼谱集卖家、虫虫钢琴</td>
+      <td><span class="tgr">不进入</span></td>
     </tr>
     <tr>
-      <td>2</td>
-      <td><strong>闲鱼 ¥9.9 体验课引流</strong></td>
-      <td>¥9.9/节</td>
-      <td>1周</td>
-      <td>闲鱼声乐课 232人想要 → 精准流量池</td>
+      <td>动态谱</td>
+      <td><span class="tgr">巨头把持</span></td>
+      <td>指北者 40万+首</td>
+      <td><span class="tgr">不进入</span></td>
     </tr>
     <tr>
-      <td>3</td>
-      <td><strong>凌凌老师原创练声曲集</strong></td>
-      <td>¥69</td>
-      <td>1个月</td>
-      <td>自有版权、无法被抄、长期复利</td>
+      <td>AI扒谱/制谱</td>
+      <td><span class="tgr">AI颠覆中</span></td>
+      <td>Songscription、DeepSeek</td>
+      <td><span class="tgr">不进入</span></td>
     </tr>
     <tr>
-      <td>4</td>
-      <td><strong>小红书内容矩阵</strong></td>
-      <td>引流</td>
-      <td>持续</td>
-      <td>发真实教学片段 → 导流到产品</td>
+      <td>少儿音乐启蒙盗版资源</td>
+      <td><span class="tgr">盗版红海</span> 6+卖家 ¥1</td>
+      <td>54套动画的多个卖家</td>
+      <td><span class="tgr">不进入</span></td>
     </tr>
     <tr>
-      <td>5</td>
-      <td><strong>月度会员订阅</strong></td>
-      <td>¥29.9/月</td>
-      <td>3个月</td>
-      <td>稳定复购收入、需要先有用户基础</td>
+      <td>声乐教学自媒体</td>
+      <td><span class="tgy">中等</span></td>
+      <td>@大米老师 134.9万赞</td>
+      <td><span class="tgy">可做</span>（教学引流）</td>
+    </tr>
+    <tr>
+      <td>少儿声乐考级资料</td>
+      <td><span class="tgg">低</span> 碎片化</td>
+      <td>@多才多艺小红帽 1665赞</td>
+      <td><span class="tgg">重点切入</span></td>
+    </tr>
+    <tr>
+      <td>声乐教学标注谱</td>
+      <td><span class="tgg">无直接竞品</span></td>
+      <td>无</td>
+      <td><span class="tgg">蓝海</span></td>
+    </tr>
+    <tr>
+      <td>原创练声曲/练习曲</td>
+      <td><span class="tgg">无直接竞品</span></td>
+      <td>无</td>
+      <td><span class="tgg">自有版权壁垒</span></td>
     </tr>
   </table>
 </div>
 
-<!-- ====== 一句话 ====== -->
-<h2>八、核心判断</h2>
+<!-- ====== 6 ====== -->
+<h2 id="s6">六、六层商机地图</h2>
 
-<div class="card" style="text-align:center;padding:24px;">
-  <p style="font-size:16px;color:#f0f6fc;">这个市场的机会不是「卖谱」——那是一块越来越小的蛋糕。</p>
-  <p style="font-size:16px;color:#58a6ff;margin:10px 0;">真正的机会是：</p>
-  <p style="font-size:18px;color:#3fb950;font-weight:700;">「把十几年声乐教学经验，封装成可复制的数字产品」</p>
-  <p style="font-size:14px;color:#8b949e;margin-top:12px;">
-    一份谱 AI 可以生成 → 但换气点为什么标注在这里，AI 不知道。<br>
-    一套课任何人都可以录 → 但「教过几百个小朋友总结出的训练顺序」，只有凌凌老师知道。
-  </p>
+<div class="card g">
+  <h3>核心结论：AI能吃掉的，不做。经验壁垒的，猛做。</h3>
 </div>
 
-<p style="text-align:center;color:#484f58;font-size:11px;margin-top:36px;padding-top:14px;border-top:1px solid #21262d;">
-  全网调研 · 六层价值链 · 四平台数据交叉验证 · 2026年5月7日 · terry6394.github.io/sheet-music-report
+<table>
+  <tr><th>层</th><th>方向</th><th>适合</th><th>参考数据</th></tr>
+  <tr><td>1. 产品</td><td>少儿声乐考级标注谱</td><td><span class="tgg">✅ 主力</span></td><td>@多才多艺小红帽 1665赞</td></tr>
+  <tr><td>1. 产品</td><td>原创练声曲集+伴奏</td><td><span class="tgg">✅ 壁垒</span></td><td>@一梦善存 2978赞</td></tr>
+  <tr><td>2. 教育</td><td>考级通关包（谱+视频+指南）</td><td><span class="tgg">✅ 核心</span></td><td>@金声玉韵课堂 ¥9.9模式</td></tr>
+  <tr><td>2. 教育</td><td>声乐启蒙亲子课</td><td><span class="tgy">⚠️ 中期</span></td><td>抖音 @郭飞FINN 14.8万赞</td></tr>
+  <tr><td>3. 服务</td><td>闲鱼 ¥9.9体验课引流</td><td><span class="tgg">✅ 获客</span></td><td>声乐大学生 232人想要</td></tr>
+  <tr><td>3. 服务</td><td>定制声乐谱/伴奏编配</td><td><span class="tgy">⚠️ 高价低频</span></td><td>闲鱼 ¥58/首</td></tr>
+  <tr><td>4. 内容</td><td>小红书教学账号</td><td><span class="tgg">✅ 引流</span></td><td>@阿乐不想上班、@Cherry芙</td></tr>
+  <tr><td>4. 内容</td><td>抖音声乐短视频</td><td><span class="tgy">⚠️ 后期</span></td><td>@大米老师 134.9万赞</td></tr>
+  <tr><td>5. B2B</td><td>声乐老师教案包</td><td><span class="tgy">⚠️ 长期</span></td><td>闲鱼 ¥199</td></tr>
+  <tr><td>6. 跨界</td><td>少儿声乐教具包</td><td><span class="tgy">⚠️ 探索</span></td><td>乐谱夹橱窗 1.4万件</td></tr>
+</table>
+
+<!-- ====== 7 ====== -->
+<h2 id="s7">七、产品线设计</h2>
+
+<div class="card g">
+  <h3>第一阶段（1-2周上线）</h3>
+  <table>
+    <tr><th>产品</th><th>内容</th><th>定价</th></tr>
+    <tr><td>🆓 免费引流谱</td><td>1首经典考级曲+凌凌老师标注版</td><td>¥0</td></tr>
+    <tr><td>📄 单级考级标注谱</td><td>一个级别全部曲目+教学标注+范唱视频</td><td><span class="tgg">¥99</span></td></tr>
+    <tr><td>🎥 考级示范视频包</td><td>该级别每首曲的完整范唱+重点讲解</td><td><span class="tgg">¥199</span></td></tr>
+    <tr><td>📋 备考指南</td><td>报名流程/录制要求/扣分点/着装建议</td><td><span class="tgg">¥39</span></td></tr>
+  </table>
+</div>
+
+<div class="card y">
+  <h3>第二阶段（1个月后）</h3>
+  <table>
+    <tr><th>产品</th><th>定价</th></tr>
+    <tr><td>凌凌老师原创练声曲30首（谱+伴奏+教学视频）</td><td>¥69</td></tr>
+    <tr><td>闲鱼声乐体验课（引流到私域）</td><td>¥9.9</td></tr>
+    <tr><td>月度会员（每月2首新谱+教唱视频+社群答疑）</td><td>¥29.9/月</td></tr>
+  </table>
+</div>
+
+<div class="card b">
+  <h3>第三阶段（3个月+）</h3>
+  <table>
+    <tr><th>产品</th><th>定价</th></tr>
+    <tr><td>少儿声乐启蒙系统课（4-8岁亲子课）</td><td>¥199</td></tr>
+    <tr><td>B2B声乐老师教案包（48节完整教案+素材）</td><td>¥299</td></tr>
+  </table>
+</div>
+
+<!-- ====== 8 ====== -->
+<h2 id="s8">八、收入模型</h2>
+
+<div class="grid2">
+  <div class="card" style="text-align:center">
+    <p style="font-size:12px;color:#8b949e;">保守（第3个月）</p>
+    <table>
+      <tr><td>考级包 ¥99 × 30</td><td>¥2,970</td></tr>
+      <tr><td>练习曲集 ¥69 × 20</td><td>¥1,380</td></tr>
+      <tr><td>备考指南 ¥39 × 20</td><td>¥780</td></tr>
+      <tr><td style="font-weight:700;">合计</td><td style="color:#3fb950;font-weight:700;">≈ ¥5,000/月</td></tr>
+    </table>
+  </div>
+  <div class="card" style="text-align:center">
+    <p style="font-size:12px;color:#8b949e;">乐观（第6个月）</p>
+    <table>
+      <tr><td>考级包 ¥99 × 80</td><td>¥7,920</td></tr>
+      <tr><td>练习曲集 ¥69 × 40</td><td>¥2,760</td></tr>
+      <tr><td>冲刺包 ¥299 × 10</td><td>¥2,990</td></tr>
+      <tr><td style="font-weight:700;">合计</td><td style="color:#d2991d;font-weight:700;">≈ ¥13,000/月</td></tr>
+    </table>
+  </div>
+</div>
+<p style="text-align:center;font-size:12px;color:#8b949e;">参考基准：小红书 @夕夕 月1.7万、@耶耶爱写字 9天1万、抖音 乐谱夹橱窗 1.4万件</p>
+
+<!-- ====== 9 ====== -->
+<h2 id="s9">九、MVP 行动清单</h2>
+
+<div class="card g">
+  <h3>本周启动</h3>
+  <table>
+    <tr><th style="width:8%">天</th><th>行动</th><th>产出</th></tr>
+    <tr><td>1</td><td>定级别（建议中国音乐学院少儿三级），列曲目</td><td>曲目清单</td></tr>
+    <tr><td>2</td><td>下载MuseScore，制作第1首标注谱</td><td>1份标注谱PDF</td></tr>
+    <tr><td>3</td><td>注册小红书号「凌凌老师少儿声乐」，写简介</td><td>账号就绪</td></tr>
+    <tr><td>4</td><td>录第1条视频：教小朋友片段+口播</td><td>1条短视频</td></tr>
+    <tr><td>5</td><td>发第1条笔记，评论区引导领免费谱</td><td>上线</td></tr>
+    <tr><td>6</td><td>完成3首标注谱，开通小红书个人售卖</td><td>产品上架</td></tr>
+    <tr><td>7</td><td>发第2条笔记（挂¥99链接），看反馈</td><td>开始产生收入</td></tr>
+  </table>
+</div>
+
+<!-- ====== 10 ====== -->
+<h2 id="s10">十、版权安全路线图</h2>
+
+<div class="card r">
+  <table>
+    <tr><th>阶段</th><th>曲目来源</th><th>安全度</th></tr>
+    <tr><td>第1-3个月</td><td>考级指定曲目（大量为传统民歌、古典艺术歌曲）</td><td><span class="tgg">公有领域</span></td></tr>
+    <tr><td>第3-6个月</td><td>凌凌老师原创练声曲 + 原创练习曲</td><td><span class="tgg">自有版权</span></td></tr>
+    <tr><td>第6个月+</td><td>联系独立音乐人/小型版权方获取授权</td><td><span class="tgy">需谈判</span></td></tr>
+    <tr><td>永远不碰</td><td>流行歌曲扒谱（上海高院已发布普法视频）</td><td><span class="tgr">高风险</span></td></tr>
+  </table>
+</div>
+
+<!-- ====== Footer ====== -->
+<div class="card" style="margin-top:40px;text-align:center;padding:24px;">
+  <p style="font-size:17px;color:#f0f6fc;">一份谱 AI 可以生成。</p>
+  <p style="font-size:17px;color:#3fb950;margin:6px 0;">但「换气点为什么标注在这里」——</p>
+  <p style="font-size:17px;color:#58a6ff;">只有教过几百个孩子的凌凌老师知道。</p>
+  <p style="font-size:13px;color:#8b949e;margin-top:16px;">这才是你真正的产品。</p>
+</div>
+
+<p style="text-align:center;color:#484f58;font-size:11px;margin-top:32px;padding-top:16px;border-top:1px solid #21262d;">
+  数据来源：闲鱼（goofish.com）/ 抖音（douyin.com）/ 小红书（xiaohongshu.com）— 18组搜索 · 全部已登录实时快照 · 2026年5月7日<br>
+  所有引用账号、赞数、价格均可在对应平台搜索验证 · 调研者：Hermes Agent 全网调研专家模式<br>
+  GitHub: terry6394.github.io/sheet-music-report
 </p>
 
 </body>
